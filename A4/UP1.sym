@@ -1,0 +1,12 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	LOOP              3007
+//	TL                3014
+//	IL                3015
+//	T                 3016
+//	I                 3017
+//	STCKPt            3018
+//	END_MSG           3019
+

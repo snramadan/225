@@ -1,0 +1,9 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	UP01              3306
+//	INTER             3307
+//	KBSR              3308
+//	UP02              3309
+

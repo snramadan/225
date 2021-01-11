@@ -1,0 +1,9 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	KBDR              3508
+//	KBSR              3509
+//	UP01              350A
+//	SR1               350B
+

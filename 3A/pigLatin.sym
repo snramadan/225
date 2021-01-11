@@ -1,0 +1,18 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	START             3000
+//	INPUT             3006
+//	BRznp             300C
+//	OUTPUT            300C
+//	ENGLISH           3019
+//	PIG               3028
+//	AY                3039
+//	SPACE             303C
+//	INITIAL           3050
+//	SEC               3051
+//	A                 3052
+//	Z                 3053
+//	NEW               3054
+//	NULL              3055

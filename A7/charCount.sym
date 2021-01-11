@@ -1,0 +1,10 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	SAME              3311
+//	DIFF              3315
+//	REC               3318
+//	DONE              3326
+//	TEMP              332E
+

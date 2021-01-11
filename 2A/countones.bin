@@ -1,0 +1,22 @@
+;Saba Ramadan
+;Assignment 2
+
+;Part 1:
+;
+;4.
+;  1) x9928
+;  2) holds the address of the value 10
+;  3) increments to get the next value to perform an ADD for
+;  4) so we can decrement the 10 value all the way down to 0 
+
+0011000000000000      ; ORIG at x3000
+0101 001 001 1 00000  ; counter initailized to 0 at R1
+0010 010 011111110    ; x3100 value placed in R2
+0001 011 011 1 00001  ; start mask at R3 with value 1 
+0101 100 010 000 011  ; AND R4, R2, R3
+0000 010 000000001    ; check R4, if not 0 increment
+0001 001 001 1 00001  ; increment R1
+0001 011 011 000 011  ; left shift
+0000 101 111111011    ; check left shift, if not 0 keep going
+0011 001 011111000    ; store value in x3101
+1111000000100101      ; HALT
